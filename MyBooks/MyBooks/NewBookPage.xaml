@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MyBooks.NewBookPage">
+
+    <StackLayout Margin="10,10,10,0">
+        <Entry x:Name="bookName" Placeholder="Nome do livro"/>
+        <Entry x:Name="authorName" Placeholder="Nome do autor"/>
+        <Button Text="Inserir" Clicked="Button_Clicked"/>
+    </StackLayout>
+    
+</ContentPage>
